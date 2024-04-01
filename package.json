@@ -1,0 +1,40 @@
+{
+  "name": "unknown-website",
+  "version": "0.0.0-development",
+  "private": true,
+  "description": "☪️ unknown的官方站点",
+  "license": "MIT",
+  "author": {
+    "name": "明夷",
+    "email": "lzm0x219@gmail.com"
+  },
+  "type": "module",
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "prepare": "is-ci || husky",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "lint-staged": {
+    "*.{js,cjs,ts,css,md,json,astro}": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "astro": "4.5.12"
+  },
+  "devDependencies": {
+    "@astrojs/mdx": "2.2.2",
+    "@astrojs/tailwind": "5.1.0",
+    "autoprefixer": "10.4.19",
+    "husky": "9.0.11",
+    "is-ci": "3.0.1",
+    "lint-staged": "15.2.2",
+    "postcss": "8.4.38",
+    "prettier": "3.2.5",
+    "prettier-plugin-astro": "0.13.0",
+    "prettier-plugin-packagejson": "2.4.14",
+    "prettier-plugin-tailwindcss": "0.5.13",
+    "tailwindcss": "3.4.3"
+  }
+}
