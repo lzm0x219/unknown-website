@@ -24,7 +24,7 @@
     "astro": "4.5.15"
   },
   "devDependencies": {
-    "@astrojs/mdx": "2.2.3",
+    "@astrojs/mdx": "2.2.4",
     "@astrojs/tailwind": "5.1.0",
     "autoprefixer": "10.4.19",
     "husky": "9.0.11",
