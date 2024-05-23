@@ -21,7 +21,7 @@
     "*.{js,cjs,ts,css,md,json,astro}": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "astro": "4.9.0"
+    "astro": "4.9.1"
   },
   "devDependencies": {
     "@astrojs/mdx": "3.0.1",
