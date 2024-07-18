@@ -21,10 +21,10 @@
     "*.{js,cjs,ts,css,md,json,astro}": "prettier --write --ignore-unknown"
   },
   "dependencies": {
-    "astro": "4.11.6"
+    "astro": "4.12.0"
   },
   "devDependencies": {
-    "@astrojs/mdx": "3.1.2",
+    "@astrojs/mdx": "3.1.3",
     "@astrojs/tailwind": "5.1.0",
     "autoprefixer": "10.4.19",
     "husky": "9.1.1",
